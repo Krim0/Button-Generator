@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap" rel="stylesheet">
+    <title>Button Generator</title>
+<script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=b68tLTWIf9atqVAF6CaiIFcJUMFjKT4bHWun2-6zPczJrpq6Tk-1PDYGhyzd0n7M5TgshJR8Dg6TOQs40HUz0tGh9F_3Z_l8423wFOxuNa5zSmDwWUnFwAo3MxifX9n8tIez1Mu2W186fgNMQFNR6lMV3O7BxNFglf60HgqbirFmTrZ0IRRqYRWLBEhan7Vil3pgOV4bhxJibdOhVOpT4hDDERwKXwaZGC2xp5aDTY8XjhmZyJidhL0BBZ4ca1g-MyPagAIJhqzpAql81lTwjpBcdGrce7LODg2D-qqAAzQLTMBtAERmMD3DEb5NApkLREhRXrYvqDZ5wc47PVUhz9j7AjuShRD5dA1AOPhcZpRVfEVLHy8egLB9CE6nF_NVlqhkY2Cvm9FBbDmyRzwCHlJ0wSw6roHEqCMMuW6Azz47JjkjMaGtxsI4NsPUL4V4c_mArlykcC6S6bG0hhfuwg" charset="UTF-8"></script></head>
+
+<body>
+    <main>
+        <div class="hero-container">
+            <div class="button-styler">
+                <h1>CSS Button Generator</h1>
+                <div class="form-group">
+                    <label for="btn-font-size">Font Size</label>
+                    <br>
+                    <input type="range" id="btn-font-size" name="btn-font-size" min="1" max="10" class="slider">
+                </div>
+
+                <div class="form-group">
+                    <label for="btn-bradius">Border Radius</label>
+                    <br>
+                    <input type="range" id="btn-bradius" min="1" max="100" class="slider">
+                </div>
+                <div class="form-group">
+                    <label for="btn-width">Width</label>
+                    <br>
+                    <input type="range" id="btn-width" min="1" max="85" class="slider">
+                </div>
+
+                <div class="form-group">
+                    <label for="btn-height">Height</label>
+                    <br>
+                    <input type="range" id="btn-height" min="1" max="25" class="slider">
+                </div>
+
+                <div class="form-group">
+                    <label for="btn-height">Box Shadow</label>
+                    <br>
+                    <p>Vertical</p>
+                    <input type="range" id="btn-vertical" min="1" max="25" class="slider">
+                    <p>Horizontal</p>
+                    <input type="range" id="btn-horizontal" min="1" max="25" class="slider">
+                    <p>Blur</p>
+                    <input type="range" id="btn-blur" min="1" max="25" class="slider">
+                </div>
+
+                <div class="form-group">
+                    <label for="Text Color">Text Color</label>
+                    <br>
+                    <input type="color" id="btn-text-color">
+                </div>
+
+                <div class="form-group">
+                    <label for="Background Color">Background Color</label>
+                    <br>
+                    <input type="color" id="bg-color">
+                </div>
+                <div class="style-container">
+                    <h2>CSS Property</h2>
+                    <p id="btn-style"></p>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <button>BUTTON</button>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
